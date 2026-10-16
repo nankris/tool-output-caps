@@ -1,0 +1,12 @@
+--exp /workspace/work/tig/008-codex-tool-output-caps --cond cap256 --task /workspace/work/tig/_harness/fixtures/N01_median --rep 3 --cfg tool_output_token_limit=256 --timeout 600
+--exp /workspace/work/tig/008-codex-tool-output-caps --cond cap2000 --task /workspace/work/tig/_harness/fixtures/N01_median --rep 3 --cfg tool_output_token_limit=2000 --timeout 600
+--exp /workspace/work/tig/008-codex-tool-output-caps --cond default --task /workspace/work/tig/_harness/fixtures/N01_median --rep 3  --timeout 600
+--exp /workspace/work/tig/008-codex-tool-output-caps --cond promptcap256 --task /workspace/work/tig/_harness/fixtures/N01_median --rep 3 --timeout 600 --prompt 'Make `node test.js` pass by fixing the code. Do not edit test.js. Hard rule: every exec_command call must set max_output_tokens to 256 or less.'
+--exp /workspace/work/tig/008-codex-tool-output-caps --cond cap256 --task /workspace/work/tig/_harness/fixtures/N02_duration --rep 3 --cfg tool_output_token_limit=256 --timeout 600
+--exp /workspace/work/tig/008-codex-tool-output-caps --cond cap2000 --task /workspace/work/tig/_harness/fixtures/N02_duration --rep 3 --cfg tool_output_token_limit=2000 --timeout 600
+--exp /workspace/work/tig/008-codex-tool-output-caps --cond default --task /workspace/work/tig/_harness/fixtures/N02_duration --rep 3  --timeout 600
+--exp /workspace/work/tig/008-codex-tool-output-caps --cond promptcap256 --task /workspace/work/tig/_harness/fixtures/N02_duration --rep 3 --timeout 600 --prompt 'Make `node test.js` pass by fixing the code. Do not edit test.js. Hard rule: every exec_command call must set max_output_tokens to 256 or less.'
+--exp /workspace/work/tig/008-codex-tool-output-caps --cond cap256 --task /workspace/work/tig/_harness/fixtures/N03_csv --rep 3 --cfg tool_output_token_limit=256 --timeout 600
+--exp /workspace/work/tig/008-codex-tool-output-caps --cond cap2000 --task /workspace/work/tig/_harness/fixtures/N03_csv --rep 3 --cfg tool_output_token_limit=2000 --timeout 600
+--exp /workspace/work/tig/008-codex-tool-output-caps --cond default --task /workspace/work/tig/_harness/fixtures/N03_csv --rep 3  --timeout 600
+--exp /workspace/work/tig/008-codex-tool-output-caps --cond promptcap256 --task /workspace/work/tig/_harness/fixtures/N03_csv --rep 3 --timeout 600 --prompt 'Make `node test.js` pass by fixing the code. Do not edit test.js. Hard rule: every exec_command call must set max_output_tokens to 256 or less.'

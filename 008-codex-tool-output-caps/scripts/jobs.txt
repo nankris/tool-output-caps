@@ -1,0 +1,18 @@
+--exp /workspace/work/tig/008-codex-tool-output-caps --cond cap256 --task /workspace/work/tig/_harness/fixtures/N01_median --rep 1 --cfg tool_output_token_limit=256 --timeout 600
+--exp /workspace/work/tig/008-codex-tool-output-caps --cond cap2000 --task /workspace/work/tig/_harness/fixtures/N01_median --rep 1 --cfg tool_output_token_limit=2000 --timeout 600
+--exp /workspace/work/tig/008-codex-tool-output-caps --cond default --task /workspace/work/tig/_harness/fixtures/N01_median --rep 1  --timeout 600
+--exp /workspace/work/tig/008-codex-tool-output-caps --cond cap256 --task /workspace/work/tig/_harness/fixtures/N02_duration --rep 1 --cfg tool_output_token_limit=256 --timeout 600
+--exp /workspace/work/tig/008-codex-tool-output-caps --cond cap2000 --task /workspace/work/tig/_harness/fixtures/N02_duration --rep 1 --cfg tool_output_token_limit=2000 --timeout 600
+--exp /workspace/work/tig/008-codex-tool-output-caps --cond default --task /workspace/work/tig/_harness/fixtures/N02_duration --rep 1  --timeout 600
+--exp /workspace/work/tig/008-codex-tool-output-caps --cond cap256 --task /workspace/work/tig/_harness/fixtures/N03_csv --rep 1 --cfg tool_output_token_limit=256 --timeout 600
+--exp /workspace/work/tig/008-codex-tool-output-caps --cond cap2000 --task /workspace/work/tig/_harness/fixtures/N03_csv --rep 1 --cfg tool_output_token_limit=2000 --timeout 600
+--exp /workspace/work/tig/008-codex-tool-output-caps --cond default --task /workspace/work/tig/_harness/fixtures/N03_csv --rep 1  --timeout 600
+--exp /workspace/work/tig/008-codex-tool-output-caps --cond cap256 --task /workspace/work/tig/_harness/fixtures/N01_median --rep 2 --cfg tool_output_token_limit=256 --timeout 600
+--exp /workspace/work/tig/008-codex-tool-output-caps --cond cap2000 --task /workspace/work/tig/_harness/fixtures/N01_median --rep 2 --cfg tool_output_token_limit=2000 --timeout 600
+--exp /workspace/work/tig/008-codex-tool-output-caps --cond default --task /workspace/work/tig/_harness/fixtures/N01_median --rep 2  --timeout 600
+--exp /workspace/work/tig/008-codex-tool-output-caps --cond cap256 --task /workspace/work/tig/_harness/fixtures/N02_duration --rep 2 --cfg tool_output_token_limit=256 --timeout 600
+--exp /workspace/work/tig/008-codex-tool-output-caps --cond cap2000 --task /workspace/work/tig/_harness/fixtures/N02_duration --rep 2 --cfg tool_output_token_limit=2000 --timeout 600
+--exp /workspace/work/tig/008-codex-tool-output-caps --cond default --task /workspace/work/tig/_harness/fixtures/N02_duration --rep 2  --timeout 600
+--exp /workspace/work/tig/008-codex-tool-output-caps --cond cap256 --task /workspace/work/tig/_harness/fixtures/N03_csv --rep 2 --cfg tool_output_token_limit=256 --timeout 600
+--exp /workspace/work/tig/008-codex-tool-output-caps --cond cap2000 --task /workspace/work/tig/_harness/fixtures/N03_csv --rep 2 --cfg tool_output_token_limit=2000 --timeout 600
+--exp /workspace/work/tig/008-codex-tool-output-caps --cond default --task /workspace/work/tig/_harness/fixtures/N03_csv --rep 2  --timeout 600
