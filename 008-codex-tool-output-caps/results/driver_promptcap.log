@@ -1,0 +1,10 @@
+start 1791987190 jobs=6 P=2
+{"cond": "promptcap256", "task": "N02_duration", "rep": 1, "passed": 1, "subtests_passed": "", "total_tokens": 76815, "cached_input_tokens": 71680, "est_cost_usd": 0.02127, "model_calls": 5, "compactions": 0, "wall_s": 66.6, "limit_error": "", "retries": 0, "rl_primary_used_pct": 23.0}
+{"cond": "promptcap256", "task": "N01_median", "rep": 1, "passed": 1, "subtests_passed": "", "total_tokens": 77540, "cached_input_tokens": 68608, "est_cost_usd": 0.02843, "model_calls": 5, "compactions": 0, "wall_s": 72.1, "limit_error": "", "retries": 0, "rl_primary_used_pct": 23.0}
+{"cond": "promptcap256", "task": "N03_csv", "rep": 1, "passed": 1, "subtests_passed": "", "total_tokens": 61596, "cached_input_tokens": 54656, "est_cost_usd": 0.02502, "model_calls": 4, "compactions": 0, "wall_s": 68.6, "limit_error": "", "retries": 0, "rl_primary_used_pct": 24.0}
+errors: ['{"type": "error", "message": "Reconnecting... 2/5 (exceeded retry limit, last status: 429 Too Many Requests)"}']
+{"cond": "promptcap256", "task": "N01_median", "rep": 2, "passed": 1, "subtests_passed": "", "total_tokens": 61089, "cached_input_tokens": 50816, "est_cost_usd": 0.0289, "model_calls": 4, "compactions": 0, "wall_s": 113.2, "limit_error": "", "retries": 1, "rl_primary_used_pct": 25.0}
+{"cond": "promptcap256", "task": "N02_duration", "rep": 2, "passed": 1, "subtests_passed": "", "total_tokens": 77441, "cached_input_tokens": 72064, "est_cost_usd": 0.02149, "model_calls": 5, "compactions": 0, "wall_s": 77.1, "limit_error": "", "retries": 0, "rl_primary_used_pct": 26.0}
+errors: ['{"type": "error", "message": "Reconnecting... 2/5 (exceeded retry limit, last status: 429 Too Many Requests)"}', '{"type": "error", "message": "Reconnecting... 3/5 (exceeded retry limit, last status: 429 Too Many Requests)"}']
+{"cond": "promptcap256", "task": "N03_csv", "rep": 2, "passed": 1, "subtests_passed": "", "total_tokens": 77210, "cached_input_tokens": 68608, "est_cost_usd": 0.02918, "model_calls": 5, "compactions": 0, "wall_s": 185.1, "limit_error": "", "retries": 2, "rl_primary_used_pct": 30.0}
+done 1791987561

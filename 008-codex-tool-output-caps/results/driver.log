@@ -1,0 +1,31 @@
+start 2026-10-14T14:03:24Z jobs=18 P=3
+{"cond": "default", "task": "N01_median", "rep": 1, "passed": 1, "subtests_passed": "", "total_tokens": 78045, "cached_input_tokens": 67840, "est_cost_usd": 0.02965, "model_calls": 4, "compactions": 0, "wall_s": 40.1, "limit_error": "", "rl_primary_used_pct": 7.0}
+{"cond": "cap2000", "task": "N01_median", "rep": 1, "passed": 1, "subtests_passed": "", "total_tokens": 69245, "cached_input_tokens": 50816, "est_cost_usd": 0.04447, "model_calls": 4, "compactions": 0, "wall_s": 40.2, "limit_error": "", "rl_primary_used_pct": 7.0}
+{"cond": "cap256", "task": "N01_median", "rep": 1, "passed": 1, "subtests_passed": "", "total_tokens": 75783, "cached_input_tokens": 71168, "est_cost_usd": 0.01935, "model_calls": 6, "compactions": 0, "wall_s": 63.4, "limit_error": "", "rl_primary_used_pct": 8.0}
+{"cond": "cap2000", "task": "N02_duration", "rep": 1, "passed": 1, "subtests_passed": "", "total_tokens": 70749, "cached_input_tokens": 57216, "est_cost_usd": 0.03576, "model_calls": 4, "compactions": 0, "wall_s": 60.0, "limit_error": "", "rl_primary_used_pct": 9.0}
+{"cond": "cap256", "task": "N02_duration", "rep": 1, "passed": 1, "subtests_passed": "", "total_tokens": 76529, "cached_input_tokens": 71552, "est_cost_usd": 0.02041, "model_calls": 5, "compactions": 0, "wall_s": 93.3, "limit_error": "", "rl_primary_used_pct": 9.0}
+{"cond": "default", "task": "N02_duration", "rep": 1, "passed": 1, "subtests_passed": "", "total_tokens": 75070, "cached_input_tokens": 65920, "est_cost_usd": 0.02752, "model_calls": 4, "compactions": 0, "wall_s": 95.5, "limit_error": "{\"type\": \"error\", \"message\": \"Reconnecting... 2/5 (exceeded retry limit, last status: 429 Too Many Requests)\"}", "rl_primary_used_pct": 10.0}
+{"cond": "cap256", "task": "N03_csv", "rep": 1, "passed": 1, "subtests_passed": "", "total_tokens": 76718, "cached_input_tokens": 68224, "est_cost_usd": 0.02849, "model_calls": 5, "compactions": 0, "wall_s": 68.9, "limit_error": "", "rl_primary_used_pct": 10.0}
+{"cond": "cap2000", "task": "N03_csv", "rep": 1, "passed": 1, "subtests_passed": "", "total_tokens": 91336, "cached_input_tokens": 82432, "est_cost_usd": 0.03119, "model_calls": 5, "compactions": 0, "wall_s": 38.2, "limit_error": "", "rl_primary_used_pct": 10.0}
+done 2026-10-14T14:06:16Z
+start 2026-10-14T14:06:46Z jobs=18 P=2
+skip cap256__N01_median__r1: already in runs.csv
+skip cap2000__N01_median__r1: already in runs.csv
+skip default__N01_median__r1: already in runs.csv
+skip cap256__N02_duration__r1: already in runs.csv
+skip cap2000__N02_duration__r1: already in runs.csv
+skip default__N02_duration__r1: already in runs.csv
+skip cap256__N03_csv__r1: already in runs.csv
+skip cap2000__N03_csv__r1: already in runs.csv
+{"cond": "cap256", "task": "N01_median", "rep": 2, "passed": 1, "subtests_passed": "", "total_tokens": 75738, "cached_input_tokens": 54016, "est_cost_usd": 0.05182, "model_calls": 5, "compactions": 0, "wall_s": 24.2, "limit_error": "", "retries": 0, "rl_primary_used_pct": 11.0}
+{"cond": "default", "task": "N03_csv", "rep": 1, "passed": 1, "subtests_passed": "", "total_tokens": 81154, "cached_input_tokens": 67584, "est_cost_usd": 0.03994, "model_calls": 4, "compactions": 0, "wall_s": 24.3, "limit_error": "", "retries": 0, "rl_primary_used_pct": 11.0}
+{"cond": "default", "task": "N01_median", "rep": 2, "passed": 1, "subtests_passed": "", "total_tokens": 78063, "cached_input_tokens": 62720, "est_cost_usd": 0.03947, "model_calls": 4, "compactions": 0, "wall_s": 36.8, "limit_error": "", "retries": 0, "rl_primary_used_pct": 12.0}
+{"cond": "cap2000", "task": "N01_median", "rep": 2, "passed": 1, "subtests_passed": "", "total_tokens": 69394, "cached_input_tokens": 62080, "est_cost_usd": 0.02351, "model_calls": 4, "compactions": 0, "wall_s": 38.4, "limit_error": "", "retries": 0, "rl_primary_used_pct": 12.0}
+{"cond": "cap256", "task": "N02_duration", "rep": 2, "passed": 1, "subtests_passed": "", "total_tokens": 76422, "cached_input_tokens": 66560, "est_cost_usd": 0.02969, "model_calls": 5, "compactions": 0, "wall_s": 24.2, "limit_error": "", "retries": 0, "rl_primary_used_pct": 13.0}
+{"cond": "cap2000", "task": "N02_duration", "rep": 2, "passed": 1, "subtests_passed": "", "total_tokens": 70592, "cached_input_tokens": 54912, "est_cost_usd": 0.03961, "model_calls": 4, "compactions": 0, "wall_s": 23.4, "limit_error": "", "retries": 0, "rl_primary_used_pct": 13.0}
+{"cond": "default", "task": "N02_duration", "rep": 2, "passed": 1, "subtests_passed": "", "total_tokens": 80299, "cached_input_tokens": 69376, "est_cost_usd": 0.03155, "model_calls": 4, "compactions": 0, "wall_s": 19.6, "limit_error": "", "retries": 0, "rl_primary_used_pct": 13.0}
+{"cond": "cap256", "task": "N03_csv", "rep": 2, "passed": 1, "subtests_passed": "", "total_tokens": 76776, "cached_input_tokens": 64768, "est_cost_usd": 0.03545, "model_calls": 5, "compactions": 0, "wall_s": 66.1, "limit_error": "", "retries": 0, "rl_primary_used_pct": 14.0}
+{"cond": "default", "task": "N03_csv", "rep": 2, "passed": 1, "subtests_passed": "", "total_tokens": 80699, "cached_input_tokens": 67584, "est_cost_usd": 0.03781, "model_calls": 4, "compactions": 0, "wall_s": 59.9, "limit_error": "", "retries": 0, "rl_primary_used_pct": 16.0}
+errors: ['{"type": "error", "message": "Reconnecting... 2/5 (exceeded retry limit, last status: 429 Too Many Requests)"}']
+{"cond": "cap2000", "task": "N03_csv", "rep": 2, "passed": 1, "subtests_passed": "", "total_tokens": 91303, "cached_input_tokens": 74240, "est_cost_usd": 0.04661, "model_calls": 5, "compactions": 0, "wall_s": 108.1, "limit_error": "", "retries": 1, "rl_primary_used_pct": 17.0}
+done 1791987020

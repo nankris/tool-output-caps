@@ -1,0 +1,5 @@
+cond,runs,passes,pass_rate,total_tokens_mean,total_tokens_sd,cached_mean,uncached_mean,output_mean,cache_share_mean,model_calls_mean,tool_calls_mean,tool_output_chars_seen_mean,cost_total_usd,cost_mean_usd,cost_sd_usd,cost_per_success_usd
+cap256,9,9,1.0,76391.0,453.0,66816.0,9097.0,478.0,0.88,5.11,4.0,22001.0,0.2669,0.0297,0.0102,0.0297
+cap2000,9,9,1.0,77111.0,10746.0,64555.0,12124.0,432.0,0.841,4.33,3.33,19448.0,0.3153,0.035,0.0098,0.035
+default,9,9,1.0,80968.0,6187.0,68181.0,12345.0,442.0,0.846,4.11,3.11,19663.0,0.3233,0.0359,0.0071,0.0359
+promptcap256,9,9,1.0,73794.0,7073.0,65564.0,7696.0,534.0,0.894,4.78,3.78,5098.0,0.2456,0.0273,0.004,0.0273
